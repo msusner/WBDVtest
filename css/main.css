@@ -1,0 +1,75 @@
+/*Starting main.scss*/
+/*Imported_variables.scss*/
+/*Imported _header.scss*/
+nav {
+  position: fixed;
+  top: 5px;
+  height: 3em; }
+  nav a {
+    color: #0080ff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: Oswald, sans-serif;
+    margin-right: 15px;
+    margin-left: 15px; }
+    nav a:hover {
+      background-color: #3232ff; }
+    nav a li {
+      list-style: square; }
+
+/*Imported _wrapper.scss*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ccccff; }
+
+nav {
+  position: fixed;
+  top: 3em;
+  height: 3em; }
+
+main {
+  position: absolute;
+  top: 5em;
+  bottom: 1.2em; }
+
+/*Imported_variables.scss*/
+h1, p {
+  font-family: Oswald, sans-serif;
+  color: #ffff00;
+  font-weight: bold; }
+
+p {
+  font-size: 1em; }
+
+.figure, .figure img {
+  position: relative;
+  right: 15px;
+  left: 15px; }
+  .figure img {
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+figcaption {
+  font-style: italic; }
+
+ul {
+  list-style: square; }
+  ul li:hover {
+    color: #0080ff; }
+
+/*Imported _footer.scss*/
+footer {
+  position: fixed;
+  bottom: 10px;
+  right: 50px;
+  height: 1.2em; }
+  footer a {
+    text-decoration: none;
+    color: #3232ff;
+    font-size: 1.5em;
+    margin: 2em; }
+
+/*# sourceMappingURL=main.css.map */
