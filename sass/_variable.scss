@@ -1,0 +1,25 @@
+/*Imported_variables.scss*/
+
+$primaryColour: #0080ff;
+$primaryLight:#ccccff;
+$primaryDark: #3232ff;
+$accentColour: #ffff00;
+$navHeight:3em;
+$navWidth:80%;
+$margin:2em;
+$footerHeight: 1.2em;
+$fontSize:1.5em;
+$fontFamily:Oswald, sans-serif;
+$fontWeight:bold;
+$fontStyle:italic;
+$right:15px;
+$left:15px;
+
+
+@mixin askew($deg) {
+	-ms-transform:rotate($deg);
+	-webkit-transform:rotate($deg);
+	 transform:rotate($deg);
+}
+
+	

@@ -1,0 +1,21 @@
+/*Imported _wrapper.scss*/
+
+body{
+    margin:0;
+    padding:0;
+	background-color:$primaryLight;
+}
+
+nav{
+	position:fixed;
+	top:$navHeight;
+	height:$navHeight;
+}
+
+main{	
+	position: absolute;	
+	top: $navHeight+ $margin;
+	bottom: $footerHeight;
+	
+}
+

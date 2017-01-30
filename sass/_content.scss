@@ -1,0 +1,31 @@
+/*Imported_variables.scss*/
+
+h1{
+	font-family:$fontFamily;
+	color:$accentColour;
+	font-weight:$fontWeight;
+}
+
+p{
+	@extend h1;
+	font-size:1em;
+	}
+	
+.figure{	
+	position:relative;
+	right:$right;
+	left:$left;	
+		img{		
+		@extend .figure;
+		@include askew(360deg);
+			}
+}
+
+figcaption{
+	font-style: $fontStyle;
+}
+
+ul{
+	list-style:square;
+	li:hover {color:$primaryColour;}
+}

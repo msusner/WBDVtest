@@ -1,0 +1,21 @@
+/*Imported _header.scss*/
+
+nav{
+	position:fixed;
+    top: 5px;
+    height: $navHeight;
+  a
+   {color: $primaryColour;
+    text-decoration: none;
+    font-weight: $fontWeight;
+    font-size: $fontSize;
+    font-family: $fontFamily;
+	margin-right: $right;
+	margin-left:$left;
+	&:hover {background-color:$primaryDark;
+	}
+  li
+   {list-style: square;
+	}
+}
+}	

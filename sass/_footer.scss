@@ -1,0 +1,14 @@
+/*Imported _footer.scss*/
+
+footer{
+    position:fixed;
+	bottom:10px;
+	right:50px;
+	height:$footerHeight;
+	 a{
+	 text-decoration:none;
+	 color:$primaryDark;
+	 font-size:$fontSize;
+	 margin:$margin;
+	  }
+	}
