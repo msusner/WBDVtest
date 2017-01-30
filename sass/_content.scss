@@ -6,6 +6,11 @@ h1{
 	font-weight:$fontWeight;
 }
 
+h3{
+	font-family:Times NEw Roman;
+	font-weight:italic;
+}
+
 p{
 	@extend h1;
 	font-size:1em;
